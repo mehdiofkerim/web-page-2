@@ -1,0 +1,126 @@
+@media (max-width: 375px) {
+    .newsletter{
+        width: 100%;
+    }
+  .video{
+    width: 100%;
+  }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .search-icon{
+        position: absolute;
+        width: 45px;
+        right: 45px;
+        top: 30px;
+        bottom: 30px;
+        border-radius: 50%;
+        background-color: #FF4A52;
+    }
+    .search-icon a {
+        color: white!important;
+    }
+
+    .drop-down-menu {
+        position: absolute;
+        width: 45px;
+        right: 0px;
+        top: 0;
+        bottom: 0;
+        z-index: 1000;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .search-icon{
+        position: absolute;
+        width: 45px;
+        right: 45px;
+        top: 30px;
+        bottom: 30px;
+        border-radius: 50%;
+        background-color: #FF4A52;
+    }
+    .search-icon a {
+        color: white!important;
+    }
+
+    .drop-down-menu {
+        position: absolute;
+        width: 45px;
+        right: 0px;
+        top: 0;
+        bottom: 0;
+        
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .drop-down-menu {
+        display: inline-block;
+    }
+
+    footer{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    nav li{
+        display: inline-block;
+    }
+    .drop-down-menu {
+        display: none!important;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .search-bar{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .search-form{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .newsletter-container{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .mail-form{
+        display: block;
+    }
+
+    .newsletter-text{
+        margin-top: 0;
+        margin-right: 10px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1580px) {
+    .popular-container{
+        padding: 0px 100px;
+    }
+}
+
+@media (min-width: 1779px) {
+    .popular-container{
+        padding: 0px 150px;
+    }
+}
